@@ -114,17 +114,11 @@
 
                             <div class="cc-3d-collar">
 
-                                <model-viewer
-    src="{{ asset('assets/3d/collar.glb') }}"
-    alt="Premium dog collar"
-    camera-controls
-    auto-rotate
-    rotation-per-second="8deg"
-    interaction-prompt="none"
-    shadow-intensity="1"
-    exposure="1.05"
-    environment-image="neutral">
-</model-viewer>
+                                <model-viewer src="{{ asset('assets/3d/air-cooler.glb') }}"
+                                    alt="Premium evaporative air cooler" camera-controls auto-rotate
+                                    auto-rotate-delay="800" rotation-per-second="8deg" interaction-prompt="none"
+                                    shadow-intensity="1" exposure="1.05" environment-image="neutral">
+                                </model-viewer>
 
                             </div>
 
